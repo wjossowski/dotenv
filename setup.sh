@@ -12,12 +12,3 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Install additional software
 brew cask install iterm2 visual-studio-code slate clipy 1password
-
-# Copy configuration
-cp .zshrc ~/.zshrc
-cp .slate ~/.slate
-
-# Make zsh default terminal
-chsh -s /bin/zsh
-
-# Reset terminal
