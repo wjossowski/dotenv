@@ -11,7 +11,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
 
 # Install additional software
-brew cask install iterm2 visual-studio-code slate clipy
+brew cask install iterm2 visual-studio-code slate clipy 1password
 
 # Copy configuration
 cp .zshrc ~/.zshrc
