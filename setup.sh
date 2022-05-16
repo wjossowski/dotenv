@@ -12,4 +12,4 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 #    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
 
 # Install additional software
-brew cask install iterm2 visual-studio-code slate clipy 1password spotify
+brew cask install iterm2 visual-studio-code slate clipy 1password spotify karabiner-elements
