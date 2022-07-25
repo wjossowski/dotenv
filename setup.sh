@@ -15,7 +15,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 brew cask install iterm2 visual-studio-code slate clipy 1password spotify karabiner-elements
 
 # QMK Keyboard Setup
-brew install qmk/qmk/qmk
+brew install avr-gcc qmk/qmk/qmk
 
 # Fetch Submodules
 git submodule update
