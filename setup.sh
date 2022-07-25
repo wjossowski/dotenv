@@ -24,11 +24,10 @@ echo 'export LDFLAGS="-L/usr/local/Cellar/avr-gcc@8/8.5.0/lib"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/arm-none-eabi-gcc@8/bin:$PATH"' >> ~/.zshrc
 echo 'export LDFLAGS="-L/usr/local/opt/arm-none-eabi-gcc@8/lib"' >> ~/.zshrc
 
-# Fetch Submodules
-git submodule update
-
 brew install qmk/qmk/qmk
+
 # Setup Keyboard firmware
+git submodule init
 qmk setup wjossowski/qmk_firmware ./qmk
 qmk config user.keymap=wjossowski
 qmk config user.keyboard=splitkb/kyria/rev2
