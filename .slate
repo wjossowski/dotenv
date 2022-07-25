@@ -1,20 +1,51 @@
-alias top-half     move screenOriginX;screenOriginY                             screenSizeX;screenSizeY/2
-alias bottom-half  move screenOriginX;screenOriginY+screenSizeY/2               screenSizeX;screenSizeY/2
-alias left-half    move screenOriginX;screenOriginY                             screenSizeX/2;screenSizeY
-alias right-half   move screenOriginX+screenSizeX/2;screenOriginY               screenSizeX/2;screenSizeY
-alias top-left     move screenOriginX;screenOriginY                             screenSizeX/2;screenSizeY/2
-alias top-right    move screenOriginX+screenSizeX/2;screenOriginY               screenSizeX/2;screenSizeY/2
-alias bottom-left  move screenOriginX;screenOriginY+screenSizeY/2               screenSizeX/2;screenSizeY/2
-alias bottom-right move screenOriginX+screenSizeX/2;screenOriginY+screenSizeY/2 screenSizeX/2;screenSizeY/2
-alias maximized    move screenOriginX;screenOriginY                             screenSizeX;screenSizeY
+# Aliases
+alias top-half      move  screenOriginX;screenOriginY                             screenSizeX;screenSizeY/2
+alias bottom-half   move  screenOriginX;screenOriginY+screenSizeY/2               screenSizeX;screenSizeY/2
+alias left-half     move  screenOriginX;screenOriginY                             screenSizeX/2;screenSizeY
+alias right-half    move  screenOriginX+screenSizeX/2;screenOriginY               screenSizeX/2;screenSizeY
+alias top-left      move  screenOriginX;screenOriginY                             screenSizeX/2;screenSizeY/2
+alias top-right     move  screenOriginX+screenSizeX/2;screenOriginY               screenSizeX/2;screenSizeY/2
+alias bottom-left   move  screenOriginX;screenOriginY+screenSizeY/2               screenSizeX/2;screenSizeY/2
+alias bottom-right  move  screenOriginX+screenSizeX/2;screenOriginY+screenSizeY/2 screenSizeX/2;screenSizeY/2
+alias maximized     move  screenOriginX;screenOriginY                             screenSizeX;screenSizeY
+
+alias pos           ctrl;cmd
+alias hyper         ctrl;cmd;alt;shift
 
 # Positioning
-bind o:ctrl;cmd ${top-half}
-bind .:ctrl;cmd ${bottom-half}
-bind k:ctrl;cmd ${left-half}
-bind ;:ctrl;cmd ${right-half}
-bind i:ctrl;cmd ${top-left}
-bind p:ctrl;cmd ${top-right}
-bind ,:ctrl;cmd ${bottom-left}
-bind /:ctrl;cmd ${bottom-right}
-bind l:ctrl;cmd ${maximized}
+bind o:${pos}       ${top-half}
+bind ,:${pos}       ${bottom-half}
+bind k:${pos}       ${left-half}
+bind ':${pos}       ${right-half}
+bind i:${pos}       ${top-left}
+bind p:${pos}       ${top-right}
+bind ,:${pos}       ${bottom-left}
+bind /:${pos}       ${bottom-right}
+bind l:${pos}       ${maximized}
+
+# Fast-app-switches
+# Work
+bind o:${hyper}     focus 'Obsidian'           # Obsidian
+bind p:${hyper}     focus 'Code'               # Power 
+bind r:${hyper}     focus 'Postman'            # Request
+bind a:${hyper}     focus 'iTerm2'             # commAnd Line
+bind d:${hyper}     focus 'Calendar'           # calendar
+
+# Hobby
+bind w:${hyper}     focus 'KiCad'              # PCB się Wytrawia
+
+# Browsing
+bind i:${hyper}     focus 'Google Chrome'      # Internet
+bind 0:${hyper}     focus '1Password 7'        # 1 Password
+
+# Chats
+bind c:${hyper}     focus 'Microsoft Teams'    # Client Chat
+bind s:${hyper}     focus 'Slack'              # Slack
+bind x:${hyper}     focus 'Messenger'          # cuX's messenger
+bind z:${hyper}     focus 'WhatsApp'           # WhatsApp
+bind v:${hyper}     focus 'Telegram'           # Telegram
+
+# Misc 
+bind m:${hyper}     focus 'Spotify'            # Music
+bind n:${hyper}     focus 'YT Music'           # Music2
+bind f:${hyper}     focus 'Finder'             # Finder
