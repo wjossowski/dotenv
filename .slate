@@ -9,19 +9,19 @@ alias bottom-left   move  screenOriginX;screenOriginY+screenSizeY/2             
 alias bottom-right  move  screenOriginX+screenSizeX/2;screenOriginY+screenSizeY/2 screenSizeX/2;screenSizeY/2
 alias maximized     move  screenOriginX;screenOriginY                             screenSizeX;screenSizeY
 
-alias pos           ctrl;cmd
+alias pos           cmd;ctrl;shift
 alias hyper         ctrl;cmd;alt;shift
 
 # Positioning
-bind o:${pos}       ${top-half}
+bind i:${pos}       ${top-half}
 bind ,:${pos}       ${bottom-half}
-bind k:${pos}       ${left-half}
-bind ':${pos}       ${right-half}
-bind i:${pos}       ${top-left}
-bind p:${pos}       ${top-right}
-bind ,:${pos}       ${bottom-left}
-bind /:${pos}       ${bottom-right}
-bind l:${pos}       ${maximized}
+bind j:${pos}       ${left-half}
+bind l:${pos}       ${right-half}
+bind u:${pos}       ${top-left}
+bind o:${pos}       ${top-right}
+bind m:${pos}       ${bottom-left}
+bind .:${pos}       ${bottom-right}
+bind k:${pos}       ${maximized}
 
 # Fast-app-switches
 # Work
