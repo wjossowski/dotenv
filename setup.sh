@@ -6,8 +6,11 @@ brew install \
   zsh \
   nvm \
   git \
-  fzf
-  
+  fzf \
+  tmux \
+  nvim 
+
+# PowerLevel10k
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
@@ -15,3 +18,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 # export NVM_DIR="$HOME/.nvm"
 #    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
 #    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
+# Nvchad
+
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1

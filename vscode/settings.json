@@ -1,0 +1,141 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "MesloLGS NF, Monaco",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.hovers.currentLine.over": "line",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "git-rebase-todo": "default"
+  },
+  "editor.renderControlCharacters": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": true
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+  },
+  "editor.suggestSelection": "first",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "gitlens.codeLens.includeSingleLineSymbols": true,
+  "gitlens.currentLine.scrollable": false,
+  // Enable/disable default YAML formatter (requires restart)
+  "yaml.format.enable": true,
+  "redhat.telemetry.enabled": false,
+  "editor.hover.delay": 500,
+  "workbench.sash.hoverDelay": 1500,
+  "gitlens.hovers.annotations.changes": false,
+  "gitlens.hovers.annotations.enabled": false,
+  "gitlens.hovers.annotations.details": false,
+  "gitlens.hovers.autolinks.enhanced": false,
+  "gitlens.hovers.autolinks.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.hovers.currentLine.details": false,
+  "gitlens.hovers.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.changes": false,
+  "prettier.printWidth": 120,
+  "gitlens.currentLine.enabled": false,
+  "editor.fontFamily": "JetBrains Mono, Monaco, OpenDyslexicMono, Menlo, 'Courier New', monospace",
+  "screencastMode.fontSize": 48,
+  "screencastMode.verticalOffset": 17,
+  "editor.lineNumbers": "relative",
+  // vim
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.overrideCopy": false,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "editor.accessibilitySupport": "off",
+  "zenMode.hideLineNumbers": false,
+  "vim.camelCaseMotion.enable": true,
+  "vim.vimrc.enable": true,
+  "editor.letterSpacing": 0.25,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "clang-format.language.c.enable": false,
+  "C_Cpp.clang_format_fallbackStyle": "",
+  "C_Cpp.clang_format_style": "",
+  "C_Cpp.formatting": "Disabled",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.cursorBlinking": "solid",
+  "workbench.colorTheme": "Nicer High Contrast",
+  "editor.tokenColorCustomizations": {
+    "[Nicer High Contrast]": {
+      "strings": { "fontStyle": "italic", "foreground": "#b3b883" },
+      "types": { "fontStyle": "", "foreground": "#03d5d5" },
+      "variables": { "fontStyle": "", "foreground": "#c8c8c8" },
+      "functions": { "fontStyle": "italic bold", "foreground": "#00c227" }
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[Nicer High Contrast]": {
+      "tab.activeBackground": "#000000",
+      "tab.unfocusedActiveBorder": "#b3b883",
+      "tab.activeBorderTop": "#b3b883",
+      "tab.unfocusedActiveForeground": "#94c175",
+      "tab.activeForeground": "#00c227",
+
+      "list.activeSelectionForeground": "#00c227",
+      "list.errorForeground": "#d956d9",
+
+      "list.inactiveSelectionBackground": "#c3ff9c",
+      "list.inactiveSelectionForeground": "#000000"
+    }
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "diffEditor.renderSideBySide": false,
+  "debug.javascript.autoAttachFilter": "disabled",
+  "hexeditor.columnWidth": 32,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "gitlens.codeLens.enabled": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": false,
+  "window.zoomLevel": -1
+}
