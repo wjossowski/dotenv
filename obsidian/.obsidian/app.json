@@ -1,0 +1,14 @@
+{
+  "promptDelete": false,
+  "fileSortOrder": "alphabetical",
+  "attachmentFolderPath": "misc/attachments",
+  "showLineNumber": false,
+  "tabSize": 4,
+  "legacyEditor": false,
+  "useTab": false,
+  "vimMode": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "000 Bucket 📝",
+  "alwaysUpdateLinks": true,
+  "spellcheck": true
+}

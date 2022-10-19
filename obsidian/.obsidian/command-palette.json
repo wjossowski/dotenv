@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "app:toggle-left-sidebar",
+    "app:toggle-right-sidebar",
+    "daily-notes:goto-next",
+    "daily-notes",
+    "daily-notes:goto-prev"
+  ]
+}
