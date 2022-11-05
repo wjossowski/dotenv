@@ -26,9 +26,12 @@
   "editor.suggestSelection": "first",
   "files.exclude": {
     "**/.classpath": true,
+    "**/.factorypath": true,
     "**/.project": true,
     "**/.settings": true,
-    "**/.factorypath": true
+    "**/node_modules": true,
+    "**/src/**/bin/": true,
+    "**/src/**/obj/": true
   },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
@@ -36,8 +39,6 @@
   "gitlens.codeLens.includeSingleLineSymbols": true,
   "gitlens.currentLine.scrollable": false,
   // Enable/disable default YAML formatter (requires restart)
-  "yaml.format.enable": true,
-  "redhat.telemetry.enabled": false,
   "editor.hover.delay": 500,
   "workbench.sash.hoverDelay": 1500,
   "gitlens.hovers.annotations.changes": false,
@@ -50,7 +51,6 @@
   "gitlens.hovers.currentLine.enabled": false,
   "gitlens.hovers.currentLine.changes": false,
   "prettier.printWidth": 120,
-  "gitlens.currentLine.enabled": false,
   "editor.fontFamily": "JetBrains Mono, Monaco, OpenDyslexicMono, Menlo, 'Courier New', monospace",
   "screencastMode.fontSize": 48,
   "screencastMode.verticalOffset": 17,
@@ -60,7 +60,6 @@
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.overrideCopy": false,
-  "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
     {
@@ -96,10 +95,6 @@
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "clang-format.language.c.enable": false,
-  "C_Cpp.clang_format_fallbackStyle": "",
-  "C_Cpp.clang_format_style": "",
-  "C_Cpp.formatting": "Disabled",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.cursorBlinking": "solid",
   "workbench.colorTheme": "Nicer High Contrast",
@@ -128,14 +123,13 @@
   },
   "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
-  "diffEditor.renderSideBySide": false,
   "debug.javascript.autoAttachFilter": "disabled",
-  "hexeditor.columnWidth": 32,
-  "hexeditor.showDecodedText": true,
-  "hexeditor.defaultEndianness": "little",
-  "hexeditor.inspectorType": "aside",
   "gitlens.codeLens.enabled": false,
   "zenMode.hideStatusBar": false,
   "zenMode.hideTabs": false,
-  "window.zoomLevel": -1
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "window.zoomLevel": -1,
+  "diffEditor.renderSideBySide": false
 }
